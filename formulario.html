@@ -22,13 +22,15 @@
     <h1>Formulario para dejar opiniones sobre Allan Kay</h1>
     <img src="multimedia/alan3.jpg" alt="Alan Kay" height="200" width="220">
     <form>
-      <label>Nombre: <input></label>
-      <label>Teléfono: <input type=tel></label>
-      <label>Correo electrónico: <input type=email></label>
+      <label for="nom">Nombre:</label> 
+        <input id="nom" type="text" />
+        <label for="tel">Teléfono:</label> 
+        <input id="tel" type="number" />
+        <label for="email">Email:</label> 
+        <input id="email" type="email" />
       <fieldset>
        <legend> Valoración de sus aportaciones </legend>
-       <label for="num">Numero:</label> 
-        <input id="num" type="number" />
+       <label> <input type=radio name=size> 1 </label>
        <label> <input type=radio name=size> 1 </label>
        <label> <input type=radio name=size> 2 </label>
        <label> <input type=radio name=size> 3 </label>
