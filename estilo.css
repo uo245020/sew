@@ -1,13 +1,52 @@
+/*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*Establecer la ESPECIFICIDAD DE TODO
+*/
+
 body {
     background-color: rgb(212, 172, 172);
   }
   
   h1 {
-    color: rgb(53, 51, 167);
-    text-align: left;
-  }
+  color: #721054;
+  font-weight: normal;
+  font-size: 40px;
+  font-family: verdana;
+  text-transform: uppercase;
+}
+h2 {
+  color: #4700a5;
+  font-weight: normal;
+  font-size: 35px;
+  font-family: verdana;
+  text-transform: uppercase;
+}
+h3 {
+  color: #443963;
+  font-weight: normal;
+  font-size: 30px;
+  font-family: verdana;
+  text-transform: lowercase;
+}
   
   p {
+    color: #3a002c;
     font-family: verdana;
     font-size: 20px;
   }
@@ -16,10 +55,37 @@ body {
   .container a {
     padding: .2em;
   }
+
+
   @media (pointer: coarse) {
     .container a {
       padding: .8em;
     }
   }
+
+  /* 
+  Tabla
+  */
+  table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+ caption {
+    padding: 0.3em;
+    color: #fff;
+     background: #000;
+ }
+ th {
+    background: #eee;
+ }
 
 
