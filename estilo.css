@@ -99,27 +99,27 @@ a:link {
  /*Especificidad=11*/
 a:visited {
   background-color : transparent;
-  color: #001b53;
+  color: #400738;
 }
 
  /*Especificidad=11*/
 a:focus {
   border-bottom: 1px solid;
   background-color : transparent;
-  color: #9609a8;
+  color: #3F0647;
 }
 
  /*Especificidad=11*/
 a:hover {
   border-bottom: 1px solid;
-  color: #c406b4;
+  color: #3B0237;
   background-color : transparent
 }
 
  /*Especificidad=11*/
 a:active {
   background-color : transparent;
-  color: #aab9fe;
+  color: #01187E;
 }
 
  /*Especificidad=1*/
