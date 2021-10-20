@@ -6,6 +6,7 @@ body {
 
  /*Especificidad=1*/
 p {
+  color: #3a002c;
   background: rgba(255,84,104,0.3);
   border: 2px solid rgb(113, 11, 145);
   padding: 10px;
@@ -14,13 +15,14 @@ p {
 
  /*Especificidad=1*/
 span {
+  color: #3a002c; 
   background: white;
   border: 1px solid black;
 }
 
  /*Especificidad=1*/
 tr {
-    background: rgba(253, 247, 247, 0.3);
+    
     border: 2px solid rgb(113, 11, 145);
     padding: 10px;
     margin: 10px;
@@ -28,7 +30,7 @@ tr {
 
  /*Especificidad=1*/
 td {
-    background: rgba(255,84,104,0.3);
+    
     border: 2px solid rgb(113, 11, 145);
     padding: 10px;
     margin: 10px;
