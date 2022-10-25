@@ -1,12 +1,12 @@
 /*Especificidad=1*/
 body {
      color: #721054;
-     background-color: rgb(212, 172, 172);
+     background-color: #721054;
   }
   
   /*Especificidad=1*/
   h1 {
-  color: #6107d6;
+  color: #EFE1A2;
   background-color : transparent;
   font-weight: normal;
   font-size: 35px;
@@ -15,7 +15,7 @@ body {
 }
 /*Especificidad=1*/
 h2 {
-  color: #4700a5;
+  color: #EFE1E1;
   background-color : transparent;
   font-weight: normal;
   font-size: 30px;
@@ -35,7 +35,7 @@ h3 {
 /*Especificidad=1*/
   p {
     color: #3a002c;
-    background-color: rgb(207, 126, 126);
+    background-color: #EFE1E1;
     font-family: Verdana, sans-serif;
     font-size: 20px;
   }
