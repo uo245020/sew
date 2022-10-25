@@ -6,7 +6,7 @@ body {
   
   /*Especificidad=1*/
   h1 {
-  color: #721054;
+  color: #6107d6;
   background-color : transparent;
   font-weight: normal;
   font-size: 35px;
@@ -24,7 +24,7 @@ h2 {
 }
 /*Especificidad=1*/
 h3 {
-  color: #443963;
+  color: rgb(59, 45, 100);
   background-color : transparent;
   font-weight: normal;
   font-size: 25px;
@@ -99,14 +99,14 @@ a:link {
  /*Especificidad=11*/
 a:visited {
   background-color : transparent;
-  color: #400738;
+  color: #4700a5;
 }
 
  /*Especificidad=11*/
 a:focus {
   border-bottom: 1px solid;
   background-color : transparent;
-  color: #3F0647;
+  color: #4700a5;
 }
 
  /*Especificidad=11*/
