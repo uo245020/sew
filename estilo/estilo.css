@@ -59,7 +59,8 @@ h3 {
     width: 25%;
     text-align: left;
     vertical-align: top;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #F9D8A9;
+    background-color: #EFE1E1;
     border-collapse: collapse;
     padding: 0.3em;
     caption-side: bottom;
