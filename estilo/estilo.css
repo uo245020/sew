@@ -132,5 +132,10 @@ div {
   border: 10px solid black;
 }
 
+label {
+  background-color : transparent;
+  color: #E6E6E6;
+}
+
 
 
